@@ -53,6 +53,12 @@ All computations are exact integer arithmetic over 𝔽₂. PSL(2,7) has 168 ele
 | `internal_orbit_thresholds.py` | Orbit-level thresholds | Order-4 bridges closest to Z₆₂ |
 | `threshold_ratios.py` | h∨ ratio test | 12:11:7 not matched by BFS |
 
+### Strong Coupling Prediction (Section 7.3)
+
+| Script | Role | Key Result |
+|--------|------|------------|
+| `alpha_s_verification.py` | Section 7.3 verification | α_s = 5/42 − 1/936 = 0.117979 (0.02σ from PDG). Computes Fix(C) ∩ B₃₁ = 5 and |order-4 class| = 42 from scratch. Verifies 936 = h × rank × (h+1) = 12 × 6 × 13. |
+
 ### Additional Analysis Scripts
 
 | Script | Description |
